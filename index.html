@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scroll Horizontal con Imágenes en Tarjetas</title>
+<style>
+  /* Estilos para el encabezado */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+  }
+  .menu-button {
+    padding: 3px 6px;
+    font-size: 14px;
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  /* Estilos para el menú desplegable */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  .dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Estilos para la tarjeta */
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+  }
+  .card img {
+    width: 100%;
+    height: 150px; /* Establecer la altura deseada */
+    border-radius: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <img src="https://i.ibb.co/9w4gxct/IMG-20240307-153908.png" alt="Imagen">
+</div>
+
+<audio controls>
+  <source src="granja_majica.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<div class="card">
+  <center><h2>La Granja Mágica</h2></center>
+  
+<p>En lo profundo del campo, donde el sol brilla sobre los campos verdes y el viento susurra secretos antiguos, se encuentra la Granja Mágica. Aquí, los animales tienen habilidades extraordinarias y los cultivos crecen con poderes misteriosos.</p>
+            <p>El granjero <span class="character">Juan</span> y su familia cuidan la Granja Mágica con amor y dedicación. Cada día, se despiertan con el canto de los gallos y se acuestan con la suave brisa nocturna, rodeados de la belleza y la magia de la naturaleza.</p>
+            <p>Los animales de la granja son más que simples criaturas; tienen personalidades únicas y habilidades sorprendentes. La vaca <span class="character">Clara</span> produce leche con propiedades curativas, el caballo <span class="character">Max</span> puede correr más rápido que el viento, y el gallo <span class="character">Pedro</span> puede predecir el clima con precisión.</p>
+            <p>Y así, en la Granja Mágica, cada día es una aventura llena de sorpresas y maravillas, donde la magia y la realidad se entrelazan en perfecta armonía.</p>
+    
+  <footer>
+    <center><p>© 2024. Todos los derechos reservados.</p></center>
+        </footer>
+    </div>
+ 
+</body>
+</html>
